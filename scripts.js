@@ -12,5 +12,5 @@ function agregarEventoAlCalendario() {
 
   const googleCalendarUrl = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(evento.title)}&dates=${startDate}/${endDate}&details=${encodeURIComponent(evento.description)}&location=${encodeURIComponent(evento.location)}`;
 
-  window.open(googleCalendarUrl, '_blank');
+  window.open(googleCalendarUrl, '_self');
 }
