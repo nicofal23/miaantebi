@@ -21,7 +21,7 @@ main {
     top: 0;
     left: 0;
     width: 100vw; /* Cambié el ancho a viewport width */
-    height: 100vh; /* Cambié la altura a viewport height */
+    height: 95vh; /* Cambié la altura a viewport height */
     overflow: hidden;
 }
 
