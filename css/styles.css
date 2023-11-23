@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(../assets/Miarc.jpg);
+}
+
+main {
+    height: 100%;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Cambié el ancho a viewport width */
+    height: 100vh; /* Cambié la altura a viewport height */
+    overflow: hidden;
+}
+
+#video-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Cambiado de 'cover' a 'contain' */
+    z-index: -1;
+}
+
+.contenido {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.botonagendar {
+    width: 40%;
+    display: flex;
+}
